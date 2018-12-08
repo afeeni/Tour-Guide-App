@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">NYTour</string>
+    <string name="tab_text_1">Restaurants</string>
+    <string name="tab_text_2">Parks</string>
+    <string name="tab_text_3">Attractions</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="restaurants">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="rest_nm">
+        <item>Fogo De Cho</item>
+        <item>Katz Deli</item>
+        <item>Prince St Pizza</item>
+        <item>Ruth Chris</item>
+    </string-array>
+
+    <string-array name="rest_location">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="rest_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="parks">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="attractions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+</resources>
