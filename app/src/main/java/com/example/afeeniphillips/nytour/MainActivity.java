@@ -143,12 +143,12 @@ public class MainActivity extends AppCompatActivity {
                     fragment = new RestaurantFragment();
                     break;
                 case 1:
-                    fragment = new ShopsFragment();
+                    fragment = new ParksFragment();
                     break;
                 case 2: fragment = new AttractionsFragment();
                     break;
-//                case 3: fragment = new ShopsFragment()
-//                    break;
+                case 3: fragment = new ShopsFragment();
+                    break;
             }
             return fragment;
         }
@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
     }
 }

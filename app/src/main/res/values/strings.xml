@@ -1,24 +1,17 @@
 <resources>
-    <string name="app_name">NYTour</string>
+    <string name="app_name">New York City Tour</string>
     <string name="tab_text_1">Restaurants</string>
     <string name="tab_text_2">Parks</string>
     <string name="tab_text_3">Attractions</string>
+    <string name="tab_text_4">Shops</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
-    <string-array name="restaurants">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-    </string-array>
-
 
     <string-array name="rest_nm">
-        <item>Fogo De Cho</item>
         <item>Katz Deli</item>
         <item>Prince St Pizza</item>
-        <item>Ruth Chris</item>
+        <item>Los Tacos No. 1</item>
     </string-array>
 
     <string-array name="rest_location">
@@ -30,6 +23,21 @@
 
 
     <string-array name="rest_description">
+        <item>The best deli in NYC!</item>
+        <item>Come here for some real NYC pizza</item>
+        <item>Authentic taco's in NYC? They have it!</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="park_nm">
+        <item>Madison Square Park</item>
+        <item>Central Park</item>
+        <item>Prospect Park</item>
+        <item>Queens - </item>
+    </string-array>
+
+    <string-array name="park_location">
         <item></item>
         <item></item>
         <item></item>
@@ -37,19 +45,38 @@
     </string-array>
 
 
-    <string-array name="parks">
+    <string-array name="park_description">
         <item></item>
         <item></item>
         <item></item>
         <item></item>
     </string-array>
 
-    <string-array name="attractions">
+
+
+    <string-array name="att_nm">
+        <item>The Empire State Building</item>
+        <item>The Statue of Liberty</item>
+        <item>Times Square</item>
+        <item>Madison Square Garden</item>
+    </string-array>
+
+
+    <string-array name="att_location">
         <item></item>
         <item></item>
         <item></item>
         <item></item>
     </string-array>
+
+
+    <string-array name="att_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
