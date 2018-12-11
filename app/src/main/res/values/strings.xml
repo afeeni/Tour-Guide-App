@@ -3,84 +3,44 @@
     <string name="tab_text_1">Restaurants</string>
     <string name="tab_text_2">Parks</string>
     <string name="tab_text_3">Attractions</string>
-    <string name="tab_text_4">Shops</string>
+    <string name="tab_text_4">Shoping</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
 
     <string-array name="rest_nm">
-        <item>Katz Deli</item>
-        <item>Prince St Pizza</item>
-        <item>Los Tacos No. 1</item>
-    </string-array>
-
-    <string-array name="rest_location">
-        <item>Queens</item>
-        <item>Manhattan</item>
-        <item>Manhattan</item>
-        <item></item>
-    </string-array>
-
-
-    <string-array name="rest_description">
-        <item>The best deli in NYC!</item>
-        <item>Come here for some real NYC pizza</item>
-        <item>Authentic tacos in NYC? They have it!</item>
-        <item></item>
+        <item>Katz Deli\nQueens\nThe best deli in NYC!</item>
+        <item>Prince St Pizza\nManhattan\nCome here for some real NYC pizza</item>
+        <item>Los Tacos No. 1\nManhattan\nAuthentic tacos in NYC? They have it!</item>
     </string-array>
 
 
     <string-array name="park_nm">
-        <item>Madison Square Park</item>
-        <item>Central Park</item>
-        <item>Prospect Park</item>
-        <item>Queens - </item>
-    </string-array>
-
-    <string-array name="park_location">
-        <item>Manhattan</item>
-        <item>Manhattan</item>
-        <item>Brooklyn</item>
-        <item>Queens</item>
-    </string-array>
-
-
-    <string-array name="park_description">
-        <item></item>
-        <item>The LARGEST</item>
-        <item></item>
-        <item></item>
+        <item>Madison Square Park\nManhattan\n</item>
+        <item>Central Park\nManhattan\n</item>
+        <item>Prospect Park\nBrooklyn\n</item>
+        <item>Flushing Meadows Corona Park\nQueens\n</item>
     </string-array>
 
 
 
     <string-array name="att_nm">
-        <item>The Empire State Building</item>
-        <item>The Statue of Liberty</item>
-        <item>Times Square</item>
-        <item>Madison Square Garden</item>
+        <item>The Empire State Building\nManhattan\n</item>
+        <item>The Statue of Liberty\nManhattan\n</item>
+        <item>Times Square\nManhattan\n</item>
+        <item>Madison Square Garden\nManhattan\n</item>
     </string-array>
 
 
-    <string-array name="att_location">
-        <item>Manhattan</item>
-        <item>Ellis Island</item>
-        <item>Manhattan</item>
-        <item>Manhattan</item>
-    </string-array>
-
-
-    <string-array name="att_description">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>Come see a concert or a Knicks game here</item>
+    <string-array name="shops_nm">
+        <item>5th Ave\nManhattan\n</item>
+        <item>Soho\nManhattan\n</item>
+        <item>Fashion District\nManhattan\n</item>
     </string-array>
     
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--<string name="title_activity_main2">Main2Activity</string>-->
 
 
 </resources>

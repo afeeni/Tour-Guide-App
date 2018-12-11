@@ -20,24 +20,6 @@ import java.util.List;
 
 public class RestaurantFragment extends ListFragment {
 
-//    private List<Restaurant> restaurantList;
-// String restaurants[] = {"Fogo", "Ruth"};
-//
-//
-//    private List<Restaurant> initRestuarantList() {
-//        Resources res = getResources();
-//        String[] restaurants = res.getStringArray(R.array.rest_nm);
-//
-//        List<Restaurants> restaurantsList = new ArrayList<>();
-//
-//        for (int i = 0; i < restaurants.length; ++i) {
-//            restaurantsList.add(new Restaurant(restaurants[i]));
-//        }
-//        return restaurantsList;
-//    }
-
-
-
 
 
     @Nullable
@@ -66,5 +48,21 @@ public class RestaurantFragment extends ListFragment {
 
 
 //    setListAdapter(new TripleArrayAdapter(this, Array1, Array2, Array3));
+
+//    private List<Restaurant> restaurantList;
+// String restaurants[] = {"Fogo", "Ruth"};
+//
+//
+//    private List<Restaurant> initRestuarantList() {
+//        Resources res = getResources();
+//        String[] restaurants = res.getStringArray(R.array.rest_nm);
+//
+//        List<Restaurants> restaurantsList = new ArrayList<>();
+//
+//        for (int i = 0; i < restaurants.length; ++i) {
+//            restaurantsList.add(new Restaurant(restaurants[i]));
+//        }
+//        return restaurantsList;
+//    }
 
 
