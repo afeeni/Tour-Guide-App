@@ -21,7 +21,7 @@ import java.util.List;
 public class RestaurantFragment extends ListFragment {
 
 //    private List<Restaurant> restaurantList;
-String restaurants[] = {"Fogo", "Ruth"};
+// String restaurants[] = {"Fogo", "Ruth"};
 //
 //
 //    private List<Restaurant> initRestuarantList() {
@@ -47,13 +47,6 @@ String restaurants[] = {"Fogo", "Ruth"};
 //        ListView listView = view.findViewById(R.id.list);
 //        listVew.setAdapter (adapter);
 
-        /// populate the listview
-        //adapters default or custom
-        // arrayadapters (classes) or base adapter
-
-//Here items must be a List<Items> according to your class instead of String[] array
-//        ListAdapter listadapter = new ListAdapter(getActivity(), android.R.layout.simple_list_item_1, items);
-//        ListView.setAdapter( listAdapter);
 
         return view;
 
@@ -63,7 +56,7 @@ String restaurants[] = {"Fogo", "Ruth"};
         @Override
         public void onActivityCreated(Bundle savedInstanceState) {
             super.onActivityCreated(savedInstanceState);
-            ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, restaurants);
+            ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.rest_nm));
             setListAdapter(adapter);
 
       }
@@ -72,21 +65,6 @@ String restaurants[] = {"Fogo", "Ruth"};
 
 
 
+//    setListAdapter(new TripleArrayAdapter(this, Array1, Array2, Array3));
 
 
-
-//
-//    @Override
-//    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle   savedInstanceState) {
-//        View view =  inflater.inflate(R.layout.secondefragment, container, false);
-//        mWebView = (WebView) view.findViewById(R.id.activity_main_webview);
-//        progressBar = (ProgressBar) view.findViewById(R.id.progressBar1);
-//
-//        WebSettings webSettings = mWebView.getSettings();
-//        webSettings.setJavaScriptEnabled(true);
-//        mWebView.loadUrl("http://www.google.com");
-//
-//        return view;
-//
-//
-//    }
