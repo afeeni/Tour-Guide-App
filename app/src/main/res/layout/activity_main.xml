@@ -63,14 +63,78 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    </android.support.v4.view.ViewPager>
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.afeeniphillips.nytour.RestaurantFragment"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_height="400"
+        tools:layout="@layout/restaurant_layout" />
+
+
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/fragment0"-->
+        <!--android:name="com.example.afeeniphillips.nytour.RestaurantFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="542dp"-->
+        <!--tools:layout="@layout/restaurant_layout" >-->
+
+
+    <!--</FrameLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center_horizontal|bottom"-->
+        <!--android:orientation="vertical">-->
+
+
+
+        <!--<fragment-->
+            <!--android:id="@+id/fragment1"-->
+            <!--android:name="com.example.afeeniphillips.nytour.ParksFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="542dp"-->
+            <!--tools:layout="@layout/fragment_parks" />-->
+
+
+        <!--<fragment-->
+            <!--android:id="@+id/fragment2"-->
+            <!--android:name="com.example.afeeniphillips.nytour.AttractionsFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="542dp"-->
+            <!--tools:layout="@layout/attractions_layout" />-->
+
+
+        <!--<fragment-->
+            <!--android:id="@+id/fragment3"-->
+            <!--android:name="com.example.afeeniphillips.nytour.ShopsFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="542dp"-->
+            <!--tools:layout="@layout/shopslayout" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="end|bottom"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
 
 </android.support.design.widget.CoordinatorLayout>
+
+    <!--<RelativeLayout>-->
+    <!---->
+
+    <!---->
+    <!--</RelativeLayout>-->

@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
+    lintOptions {
+        disable "ResourceType"
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.afeeniphillips.nytour"

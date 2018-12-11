@@ -15,9 +15,9 @@
     </string-array>
 
     <string-array name="rest_location">
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Queens</item>
+        <item>Manhattan</item>
+        <item>Manhattan</item>
         <item></item>
     </string-array>
 
@@ -25,7 +25,7 @@
     <string-array name="rest_description">
         <item>The best deli in NYC!</item>
         <item>Come here for some real NYC pizza</item>
-        <item>Authentic taco's in NYC? They have it!</item>
+        <item>Authentic tacos in NYC? They have it!</item>
         <item></item>
     </string-array>
 
@@ -38,16 +38,16 @@
     </string-array>
 
     <string-array name="park_location">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Manhattan</item>
+        <item>Manhattan</item>
+        <item>Brooklyn</item>
+        <item>Queens</item>
     </string-array>
 
 
     <string-array name="park_description">
         <item></item>
-        <item></item>
+        <item>The LARGEST</item>
         <item></item>
         <item></item>
     </string-array>
@@ -63,10 +63,10 @@
 
 
     <string-array name="att_location">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Manhattan</item>
+        <item>Ellis Island</item>
+        <item>Manhattan</item>
+        <item>Manhattan</item>
     </string-array>
 
 
@@ -74,7 +74,7 @@
         <item></item>
         <item></item>
         <item></item>
-        <item></item>
+        <item>Come see a concert or a Knicks game here</item>
     </string-array>
     
 
